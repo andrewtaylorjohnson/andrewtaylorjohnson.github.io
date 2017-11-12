@@ -4,7 +4,7 @@ var t = 0.0;
 
 function setup()
 {
-  createCanvas(1280, 720);  
+  createCanvas(818, 472);  
   background(0);
   noFill();
   stroke(255);
