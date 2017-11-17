@@ -4,24 +4,24 @@ var t = 0.0;
 
 function setup()
 {
-  createCanvas(818, 472);  
+  createCanvas(1280, 720);  
   background(0);
   noFill();
   stroke(255);
   
   //create sliders
-  a_slider = createSlider(1, 3, 2);
-  a_slider.position(10, 10);
-  m1_slider = createSlider(1, 100, 50);
-  m1_slider.position(10, 40);
-  m2_slider = createSlider(1, 100, 50);
-  m2_slider.position(10, 70);
-  n1_slider = createSlider(1, 50, 25);
-  n1_slider.position(10, 100);
-  n2_slider = createSlider(-50, 50, 1);
+  a_slider = createSlider(1, 3, 1);
+  a_slider.position(10, 160);
+  m1_slider = createSlider(1, 100, 1);
+  m1_slider.position(10, 70);
+  m2_slider = createSlider(1, 100, 1);
+  m2_slider.position(10, 40);
+  n1_slider = createSlider(1, 50, 50);
+  n1_slider.position(10, 10);
+  n2_slider = createSlider(-50, 50, -50);
   n2_slider.position(10, 130);
-  n3_slider = createSlider(-50, 50, 1);
-  n3_slider.position(10, 160);
+  n3_slider = createSlider(-50, 50, -50);
+  n3_slider.position(10, 100);
 }
 
 function draw()
